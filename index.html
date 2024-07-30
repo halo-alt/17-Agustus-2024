@@ -78,11 +78,10 @@
         </section>
 
         <section id="contact" class="container mx-auto px-6 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6" data-aos="fade-up">
-            <a href="#" id="whatsapp-link" class="card bg-green-600 text-white rounded-lg shadow-lg p-6 hover:shadow-xl transition-shadow duration-300 flex items-center">
-            <h3 class="text-xl font-semibold flex-grow">Hubungi Panitia</h3>
-            <i class="fab fa-whatsapp fa-2x ml-4"></i>
+            <a href="https://wa.me/6282212345678" target="_blank" class="card bg-green-600 text-white rounded-lg shadow-lg p-6 hover:shadow-xl transition-shadow duration-300 flex items-center">
+                <h3 class="text-xl font-semibold flex-grow">Hubungi Panitia</h3>
+                <i class="fab fa-whatsapp fa-2x ml-4"></i>
             </a>
-
 
             <a href="https://forms.gle/3dLbChDCkguEDghBA" target="_blank" class="card bg-pink-500 text-white rounded-lg shadow-lg p-6 hover:shadow-xl transition-shadow duration-300 flex items-center">
                 <h3 class="text-xl font-semibold flex-grow">Daftar Sekarang</h3>
@@ -114,12 +113,6 @@
                 document.getElementById('mobile-menu').classList.add('hidden');
             });
         });
-
-        document.getElementById('whatsapp-link').addEventListener('click', function(event) {
-        event.preventDefault(); // Prevent default link behavior
-        document.getElementById('whatsapp-instruction').classList.remove('hidden'); // Show instruction
-        window.open('https://api.whatsapp.com/send?phone=628979398544&text=Kak+mau+nanya+tentang+lomba+17+Agustus+dong!', '_blank');
-    });
     </script>
     <script src="script.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.3/js/lightbox-plus-jquery.min.js"></script>
